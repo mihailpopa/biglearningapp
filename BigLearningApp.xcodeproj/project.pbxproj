@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9122D63015AB06DE009FED3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9122D62F15AB06DE009FED3C /* UIKit.framework */; };
+		9122D63215AB06DE009FED3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9122D63115AB06DE009FED3C /* Foundation.framework */; };
+		9122D63415AB06DE009FED3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9122D63315AB06DE009FED3C /* CoreGraphics.framework */; };
+		9122D63A15AB06DE009FED3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9122D63815AB06DE009FED3C /* InfoPlist.strings */; };
+		9122D63C15AB06DE009FED3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9122D63B15AB06DE009FED3C /* main.m */; };
+		9122D64015AB06DE009FED3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9122D63F15AB06DE009FED3C /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9122D62B15AB06DE009FED3C /* BigLearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigLearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9122D62F15AB06DE009FED3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9122D63115AB06DE009FED3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9122D63315AB06DE009FED3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9122D63715AB06DE009FED3C /* BigLearningApp-Info.plist */ = {isa = PBXFileReference; path = "BigLearningApp-Info.plist"; sourceTree = "<group>"; };
+		9122D63915AB06DE009FED3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9122D63B15AB06DE009FED3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9122D63D15AB06DE009FED3C /* BigLearningApp-Prefix.pch */ = {isa = PBXFileReference; path = "BigLearningApp-Prefix.pch"; sourceTree = "<group>"; };
+		9122D63E15AB06DE009FED3C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9122D63F15AB06DE009FED3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9122D62815AB06DE009FED3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9122D63015AB06DE009FED3C /* UIKit.framework in Frameworks */,
+				9122D63215AB06DE009FED3C /* Foundation.framework in Frameworks */,
+				9122D63415AB06DE009FED3C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9122D62015AB06DE009FED3C = {
+			isa = PBXGroup;
+			children = (
+				9122D63515AB06DE009FED3C /* BigLearningApp */,
+				9122D62E15AB06DE009FED3C /* Frameworks */,
+				9122D62C15AB06DE009FED3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9122D62C15AB06DE009FED3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9122D62B15AB06DE009FED3C /* BigLearningApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9122D62E15AB06DE009FED3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9122D62F15AB06DE009FED3C /* UIKit.framework */,
+				9122D63115AB06DE009FED3C /* Foundation.framework */,
+				9122D63315AB06DE009FED3C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9122D63515AB06DE009FED3C /* BigLearningApp */ = {
+			isa = PBXGroup;
+			children = (
+				9122D63E15AB06DE009FED3C /* AppDelegate.h */,
+				9122D63F15AB06DE009FED3C /* AppDelegate.m */,
+				9122D63615AB06DE009FED3C /* Supporting Files */,
+			);
+			path = BigLearningApp;
+			sourceTree = "<group>";
+		};
+		9122D63615AB06DE009FED3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9122D63715AB06DE009FED3C /* BigLearningApp-Info.plist */,
+				9122D63815AB06DE009FED3C /* InfoPlist.strings */,
+				9122D63B15AB06DE009FED3C /* main.m */,
+				9122D63D15AB06DE009FED3C /* BigLearningApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9122D62A15AB06DE009FED3C /* BigLearningApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9122D64315AB06DE009FED3C /* Build configuration list for PBXNativeTarget "BigLearningApp" */;
+			buildPhases = (
+				9122D62715AB06DE009FED3C /* Sources */,
+				9122D62815AB06DE009FED3C /* Frameworks */,
+				9122D62915AB06DE009FED3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigLearningApp;
+			productName = BigLearningApp;
+			productReference = 9122D62B15AB06DE009FED3C /* BigLearningApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9122D62215AB06DE009FED3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9122D62515AB06DE009FED3C /* Build configuration list for PBXProject "BigLearningApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9122D62015AB06DE009FED3C;
+			productRefGroup = 9122D62C15AB06DE009FED3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9122D62A15AB06DE009FED3C /* BigLearningApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9122D62915AB06DE009FED3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9122D63A15AB06DE009FED3C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9122D62715AB06DE009FED3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9122D63C15AB06DE009FED3C /* main.m in Sources */,
+				9122D64015AB06DE009FED3C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9122D63815AB06DE009FED3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9122D63915AB06DE009FED3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9122D64115AB06DE009FED3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9122D64215AB06DE009FED3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9122D64415AB06DE009FED3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BigLearningApp/BigLearningApp-Prefix.pch";
+				INFOPLIST_FILE = "BigLearningApp/BigLearningApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9122D64515AB06DE009FED3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BigLearningApp/BigLearningApp-Prefix.pch";
+				INFOPLIST_FILE = "BigLearningApp/BigLearningApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9122D62515AB06DE009FED3C /* Build configuration list for PBXProject "BigLearningApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9122D64115AB06DE009FED3C /* Debug */,
+				9122D64215AB06DE009FED3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9122D64315AB06DE009FED3C /* Build configuration list for PBXNativeTarget "BigLearningApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9122D64415AB06DE009FED3C /* Debug */,
+				9122D64515AB06DE009FED3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9122D62215AB06DE009FED3C /* Project object */;
+}
