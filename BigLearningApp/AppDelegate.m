@@ -7,16 +7,30 @@
 //
 
 #import "AppDelegate.h"
+#import "TBVNavigationController.h"
+#import "VCViewController.h"
+#import "LittleGameController.h"
+#import "MapViewController.h"
+#import "MultiplePagesController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
-
+@synthesize tabController = _tabController;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    self.tabController = [[UITabBarController alloc] init];
+    VCViewController *viewController = [[VCViewController alloc] initWithNibName:@"VCViewController" bundle:nil];
+    TBVNavigationController *tableNavController = [[TBVNavigationController alloc] init];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:tableNavController];
+    LittleGameController *gameController = [[LittleGameController alloc] initWithNibName:@"LittleGameController" bundle:nil];
+    MapViewController *mapViewController = [[MapViewController alloc] initWithNibName:@"MapViewController" bundle:nil];
+    UINavigationController *navController2 = [[UINavigationController alloc] initWithRootViewController:mapViewController];
+    MultiplePagesController *multiplePagesController = [[MultiplePagesController alloc] initWithNibName:@"MultiplePagesController" bundle:nil];
+    self.tabController.viewControllers = [NSArray arrayWithObjects:viewController,navController,gameController,navController2,multiplePagesController, nil];
     self.window.backgroundColor = [UIColor whiteColor];
+    [self.window addSubview:self.tabController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
